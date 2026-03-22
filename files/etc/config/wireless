@@ -1,14 +1,4 @@
-config wifi-device 'radio0'
-	option type 'mac80211'
-	option channel 'auto'
-	option hwmode '11g'
-	option path 'platform/soc'
-	option htmode 'HE80'
-
-config wifi-iface 'default_radio0'
-	option device 'radio0'
-	option network 'lan'
-	option mode 'ap'
+config wifi-iface
 	option ssid '106'
 	option encryption 'psk2'
 	option key '腾达2019'
